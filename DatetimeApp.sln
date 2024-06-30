@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService", "GrpcService\GrpcService.csproj", "{F938F8F5-3B14-448A-957B-FC6409C355D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{89F34779-BFA2-48F9-926E-9279E2266D55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F938F8F5-3B14-448A-957B-FC6409C355D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F938F8F5-3B14-448A-957B-FC6409C355D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F938F8F5-3B14-448A-957B-FC6409C355D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F938F8F5-3B14-448A-957B-FC6409C355D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F34779-BFA2-48F9-926E-9279E2266D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F34779-BFA2-48F9-926E-9279E2266D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F34779-BFA2-48F9-926E-9279E2266D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F34779-BFA2-48F9-926E-9279E2266D55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcService";
+
+package calculateDate;
+
+service DateService {
+  rpc ResultDate (DateRequest) returns (DateResponse);
+}
+
+message DateRequest {
+  string date = 1;
+  int32 dayOfMonth = 2;
+  bool adjust = 3;
+}
+
+message DateResponse {
+  string ResultDate = 1;
+}
